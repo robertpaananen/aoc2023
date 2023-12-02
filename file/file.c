@@ -8,7 +8,7 @@ FILE *open_file(char *file)
     if (fp == NULL)
     {
         printf("Error opening file\n");
-        return;
+        return NULL;
     }
     return fp;
 }
